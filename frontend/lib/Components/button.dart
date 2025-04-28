@@ -29,6 +29,7 @@ class _CustomButton extends State<CustomButton> {
           color: Color(
             widget.design == 'secundary' ? 0xffFFFFFF : 0xff000000,
           ),
+          fontSize: 15,
         ),
       ),
       style: ElevatedButton.styleFrom(
@@ -43,6 +44,9 @@ class _CustomButton extends State<CustomButton> {
           80, 
           widget.design == 'secundary' ? 80 : 40,
         ),
+
+        overlayColor: Color(0xffFFFFFF),
+
       ),
     );
   }
